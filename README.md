@@ -21,10 +21,6 @@ In this project, we utilize a pre-trained VGG16 model on the ImageNet dataset, e
 
 After the VGG16 convolutional base, a `GlobalAveragePooling2D` layer is added to reduce the dimensionality of the feature maps. This is followed by a `Dense` layer with 128 units and a ReLU activation function, and a `Dropout` layer for regularization to prevent overfitting. Finally, a `Dense` layer with 5 units (corresponding to the five classes) and a `softmax` activation function is used for the final classification output.
 
-Here's a visual representation of the VGG16 architecture:
-
-![VGG16 Architecture](search_images/ZThUHPPJ2A7n.jpg)
-
 
 
 
@@ -64,11 +60,7 @@ The confusion matrix provides a detailed breakdown of the model's performance fo
 
 
 
-### Confusion Matrix
 
-![Confusion Matrix](confusion_matrix.png)
-
-The confusion matrix provides a detailed breakdown of the model's performance for each class, showing the number of correct and incorrect predictions. This helps in understanding which classes are well-classified and which ones might be challenging for the model.
 
 
 
